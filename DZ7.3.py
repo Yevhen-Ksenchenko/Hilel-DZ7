@@ -4,7 +4,7 @@ def second_index(text, some_str):
         return None
     index2 = text.find(some_str, index1 + 1)
     if index2 != -1:
-        return index2
+        return int(index2)
     else:
         return None
 
